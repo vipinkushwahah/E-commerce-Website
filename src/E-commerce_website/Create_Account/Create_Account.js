@@ -4,14 +4,13 @@ import { useEffect } from "react";
 import { useState } from "react";
 import saturo from "../../assets/gojo (1).jpg";
 import gojo from "../../assets/gojo (2).jpg";
-import {  Form, redirect, useActionData, useNavigate } from "react-router-dom";
+import {  Form, redirect, useActionData } from "react-router-dom";
 
 export default function CreateAccount ()  {
  
   const [action, setaction] = useState("Login");
   // const [details, setdetails] = useState({ name: "", email: "", password: "" });
   const data = useActionData()
-  const navigate = useNavigate();
 
 
   useEffect(() => {
