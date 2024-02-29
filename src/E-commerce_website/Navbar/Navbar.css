@@ -1,0 +1,72 @@
+.active{
+    /* background-color: orangered; */
+    border-radius: 20px;
+    border-bottom: 5px solid rgb(235, 76, 2);
+    border-right: 5px solid rgb(252, 115, 3);
+    padding: 5px;
+    font-size: 23px;
+    font-weight: 1000;
+    color: rgb(10, 10, 10);
+}
+.hadding9{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: -15px;
+    z-index: 100;
+    background-color: white;
+    border: 3px solid gray;
+}
+.shopping{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 8px;
+}
+.novbar2{
+ font-weight: 800;
+ font-size: 20px;
+}
+.novbar_1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    transform: translate(-50px, 10px);
+}
+.novbar_3{
+    transform: translate(50px, 8px);
+    font-weight: 800;
+    font-size: 20px;
+    font-style: italic;
+}
+.main3{
+    position: absolute;
+    display: none;
+}
+@media (max-width: 700px){
+    .main3{
+        display: flex;
+        transform: translate(-50px, 25px);
+    }
+    .line{
+        height: 30px;
+        width: 30px;
+    }
+    
+    .novbar_1{
+        flex-direction: column;
+        text-align:start ;
+    }
+    ul{
+        display: none;
+        flex-direction: column;
+    }
+    ul.open{
+        display: flex;
+    }
+    li{
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,159 @@
+  .box {
+    position: relative;
+    border-radius: 20px;
+    width: 350px;
+    height: 450px;
+   background-color: #131314;
+     transform-style: preserve-3d;
+     box-shadow: 0 0 5px #111111, 0 0 15px #131314, 0 0 25px #2a2a2b, 0 0 100px #0a0a0a;
+  } 
+  .box .card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    width: 350px;
+    min-height: 450px;
+    border: 4px solid rgba(250, 5, 5, 0.877);
+    border-top: 1px solid rgb(255, 255, 255, 0.75);
+    border-left: 1px solid rgb(255, 255, 255, 0.75);
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgb(0, 0, 0, 0.5);
+    transform-style:preserve-3d ;
+  }
+  .elements {
+    position: absolute;
+    top: 40px;
+    left: -30px;
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 255, 255, 0.1);
+    transform: translateZ(80px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    border-top: 1px solid rgb(255, 255, 255, 0.75);
+    border-left: 1px solid rgb(255, 255, 255, 0.75);
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgb(0, 0, 0, 0.5);
+  }
+ 
+  .elements.name {
+    top: 60px;
+    left: initial;
+    right: 50px;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    transform: translateZ(100px);
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: none;
+    box-shadow: none;
+    opacity: 1;
+    color: white;
+    border-bottom: 5px solid orangered;
+  }
+  .elements.code::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #2a2a2b;
+     background: url('../../assets/sgojo.jpg'); 
+  
+    background-size: 100px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    border-bottom: 3px solid orangered;
+    border-right: 3px solid orangered;
+    box-shadow: 0 0 5px #111111, 0 0 15px #131314, 0 0 25px #2a2a2b, 0 0 100px #0a0a0a;
+  
+  }
+  
+  .elements.content {
+    border-bottom: 3px solid orangered;
+    border-right: 3px solid orangered;
+    top: initial;
+    left: initial;
+    bottom: 30px;
+    right: 55px;
+    width: 200px;
+    min-height: 230px;
+    padding: 10px;
+    transform: translateZ(180px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px #111111, 0 0 15px #131314, 0 0 25px #2a2a2b, 0 0 100px #0a0a0a;
+  
+  }
+  .password1{
+    background: transparent;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    font-size: 0.9em;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    border-top: 1px solid rgb(255, 255, 255, 0.75);
+    border-left: 1px solid rgb(255, 255, 255, 0.75);
+    border-radius: 10px;
+   
+    width: 165px;
+    height: 30px;
+  }
+  .newform {
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    border-top: 1px solid rgb(255, 255, 255, 0.75);
+    border-left: 1px solid rgb(255, 255, 255, 0.75);
+    border-radius: 10px;
+    width: 180px;
+  }
+  .newform:hover {
+    background-color: #090979;
+  }
+  ::placeholder {
+    /* color: white; */
+    font-size: 10px;
+  }
+  .box1{
+   margin-top: 130px;
+   margin-left: 50px;
+   margin-bottom: 230px;
+   box-sizing: border-box;
+  }
+  .gojo{
+    height: 500px;
+    width: 470px;
+    margin-top: 100px;
+  }
+  .gojo2{
+    height: 800px;
+    width: 400px;
+    margin-top: 50px;
+  }
+  .gojo1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+  }
+  .to{
+    font-weight: 1000;
+    font-size: 40px;
+    transform: translate(230px, 50px);
+    color: rgb(131, 10, 125);
+    font-style: italic;
+    border-bottom: 5px solid orangered;
+    width: 270px;
+    padding-left: 10px;
+    border-radius: 30px;
+  }
+  
+

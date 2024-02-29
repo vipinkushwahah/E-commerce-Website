@@ -1,0 +1,107 @@
+
+.displeyflexcontainer{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    border: 1px solid bisque;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.logincontainerimage{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.removelogin{
+    margin-top: 100px;
+    color: bisque;
+}
+.removelogin4{
+    margin-top: 20px;
+    width: 30px;
+}
+.removelogin3{
+  margin-top: 100px;
+  width: 30px;
+}
+.removelogin1{
+    margin-top: 40px;
+    color: bisque;
+}
+.divsubtotal{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: bisque;
+}
+.couponappley{
+    padding: 8px;
+    border: 1px solid bisque;
+    background-color: green;
+    margin-left: 20px;
+}
+.inputcuopon{
+    padding: 8px;
+    border: 1px solid black;
+    margin-left: 100px;
+}
+.applycoupons{
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 80px;
+    margin-bottom: 25px;
+    color: bisque;
+}
+.carttotaldispley{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.newcarttotal{
+    border: 1px solid bisque;
+    margin-left: 300px;
+    border-radius: 20px;
+}
+.totalcartstyle{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: bisque;
+    margin-left: 20px;
+}
+.spansubtotal{
+    margin: 20px;
+    width: 500px;
+    color: bisque;
+}
+.subtotalcartstyle{
+    border: 1px solid bisque;
+    padding: 5px;
+    padding-right: 150px;
+    margin: 5px;
+    color: bisque;
+}
+.subtotalprice{
+    border: 1px solid bisque;
+    padding: 5px;
+    margin: 5px;
+    padding-right: 150px;
+    color: bisque;
+}
+.subtotalcartstyle1{
+    font-weight: 700;
+    padding: 15px;
+    color: bisque;
+}
+.subtotalprice2{
+    padding: 5px;
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: green;
+    color: bisque;
+    margin-left: 20px;
+    border: 1px solid bisque;
+    border-radius: 20px;
+}
+

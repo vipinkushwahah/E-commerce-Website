@@ -1,0 +1,65 @@
+.skaletern{
+    height: 350px;
+    width: 400px;
+  margin-left: 50px;
+   margin-right: 30px;
+   margin-top: 60px;
+}
+.skaletern1{
+    height: 90px;
+    width: 93px;
+    transform: translateX(43px);
+    margin: 5px;
+}
+.input{
+    width: 30px;
+    height: 19px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
+.submit1{
+    width: 100px;
+    height: 25px;
+    background-color: green;
+    color: bisque;
+}
+.cars{
+    height: 350px;
+}
+.details{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 800;
+    color: bisque;
+}
+.details1{
+    margin-top: 10px;
+    color: bisque;
+}
+.defferance{
+    display: flex;
+}
+.homestyle1{
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    color: bisque;
+}
+.homestyle2{
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: bisque;
+}
+.homestyle3{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: bisque;
+}
+.option{
+    display: none;
+}

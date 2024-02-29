@@ -1,0 +1,70 @@
+.form{
+    display: flex;
+    background-color:black;
+    height: 830px;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    transform:translateY(20px);
+    gap: 30px;
+    width: 400px;
+    margin-left: -30px;
+    border: 1px solid black;
+    border-bottom: 7px solid orangered;
+    border-right: 7px solid orangered;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #111111, 0 0 15px #131314, 0 0 25px #2a2a2b, 0 0 100px #0a0a0a;
+}
+.username{
+    margin-left: 60px;
+      padding-top: 10px;
+      padding-bottom:10px ;
+      width: 265px;
+      border-radius: 10px;
+      border: 2px solid orangered;
+}
+textarea{
+    margin-left: 60px;
+    width: 265px;
+    border-radius: 10px;
+    border: 2px solid orangered;
+}
+.leftmargin{
+   transform: translateX(250px);
+}
+.rightmargin{
+   transform: translateX(450px);
+}
+.upertext{
+    font-size: 60px;
+    font-weight: 800;
+    color: bisque;
+}
+
+.downtext{
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow:  0 0 5px #f46303, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #f46303;
+    color: #f45b03;
+    transform: translate(400px, -20px);
+}
+.sendbtn{
+    padding: 10px 35px 10px 35px ;
+    transform: translateX(90px);
+    width: 100px;
+    margin-left: 40px;
+    box-shadow:  0 0 5px #f46303, 0 0 15px #f46303, 0 0 25px #f45b03, 0 0 100px #f46303;
+    background-color: #f45b03;
+    border-radius: 50px;
+}
+.jojo{
+    height: 200px;
+    width: 240px;
+    margin-left: 80px;
+}
+.koko{
+    height: 660px;
+    width: 600px;
+    margin-left: -200px;
+}
