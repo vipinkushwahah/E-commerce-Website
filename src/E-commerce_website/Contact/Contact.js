@@ -1,5 +1,5 @@
 import "./Contact.css";
-import emailjs from "@emailjs/browser";
+import emailjs from '@emailjs/browser';
 import { useRef, useState } from "react";
 import jojo from '../../assets/gojo (2).png'
 import koko from '../../assets/gojo (1).png'
